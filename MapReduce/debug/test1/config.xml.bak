@@ -1,0 +1,10 @@
+<Root>
+	<Coordinator>
+		<ipaddress>127.0.0.1</ipaddress>
+		<port>2730</port>
+	</Coordinator>
+	<Me>
+		<id>2</id>
+		<port>2625</port>
+	</Me>
+</Root>

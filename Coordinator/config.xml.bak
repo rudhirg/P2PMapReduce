@@ -1,0 +1,5 @@
+<Root>
+	<Coordinator>
+		<port>2727</port>
+	</Coordinator>
+</Root>

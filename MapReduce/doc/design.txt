@@ -1,0 +1,50 @@
+Peer Node 
+===================
+Class : PeerNode
+Handles the logic part
+
+Class : TransportChannel
+Handles the networking part
+
+class : JobHandler
+Handles the job from other peer node
+
+class : JobQueue
+Handles the Job queue
+
+class : WorkHandler
+Handles the Peer work
+
+class : JobInterpreter
+Handles the logic part of the job to be handled. (Some script to be invoked may be)
+
+Coordinator Node
+===================
+class : CoordinatorNode
+
+class : TransportChannel
+
+class : PeerHandler
+Handles the info related to all the peer nodes in the system
+
+class : JobInfo
+Information related to the job
+
+class : NetworkStats
+
+
+PeerNode --> TransportChannel
+    |
+    -------> JobQueue ---> JobHandler ----> JobInterpreter
+    |
+    -------> WorkHandler
+
+
+CoordinatorNode --> TransportChannel
+    |
+    -------> PeerHandler 
+    |
+    -------> JobInfo, NetworkStats
+
+
+

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapReduce", "MapReduce.vcproj", "{45D8C070-3F74-41E1-8360-9371C9962783}"
+	ProjectSection(ProjectDependencies) = postProject
+		{941E82FA-E636-47CB-9A1D-FA2EC853DD5D} = {941E82FA-E636-47CB-9A1D-FA2EC853DD5D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Coordinator", "..\Coordinator\Coordinator.vcproj", "{1F9B880A-2BFA-4C31-A40F-4B1423F4E763}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED53AE94-6DE6-4838-8722-91B0F2EB1C7E} = {ED53AE94-6DE6-4838-8722-91B0F2EB1C7E}
+		{941E82FA-E636-47CB-9A1D-FA2EC853DD5D} = {941E82FA-E636-47CB-9A1D-FA2EC853DD5D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PugiXml", "..\pugixml\PugiXml.vcproj", "{941E82FA-E636-47CB-9A1D-FA2EC853DD5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sqlite", "..\sqlite\sqlite.vcproj", "{ED53AE94-6DE6-4838-8722-91B0F2EB1C7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D8C070-3F74-41E1-8360-9371C9962783}.Debug|Win32.ActiveCfg = Debug|Win32
+		{45D8C070-3F74-41E1-8360-9371C9962783}.Debug|Win32.Build.0 = Debug|Win32
+		{45D8C070-3F74-41E1-8360-9371C9962783}.Release|Win32.ActiveCfg = Release|Win32
+		{45D8C070-3F74-41E1-8360-9371C9962783}.Release|Win32.Build.0 = Release|Win32
+		{1F9B880A-2BFA-4C31-A40F-4B1423F4E763}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F9B880A-2BFA-4C31-A40F-4B1423F4E763}.Debug|Win32.Build.0 = Debug|Win32
+		{1F9B880A-2BFA-4C31-A40F-4B1423F4E763}.Release|Win32.ActiveCfg = Release|Win32
+		{1F9B880A-2BFA-4C31-A40F-4B1423F4E763}.Release|Win32.Build.0 = Release|Win32
+		{941E82FA-E636-47CB-9A1D-FA2EC853DD5D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{941E82FA-E636-47CB-9A1D-FA2EC853DD5D}.Debug|Win32.Build.0 = Debug|Win32
+		{941E82FA-E636-47CB-9A1D-FA2EC853DD5D}.Release|Win32.ActiveCfg = Release|Win32
+		{941E82FA-E636-47CB-9A1D-FA2EC853DD5D}.Release|Win32.Build.0 = Release|Win32
+		{ED53AE94-6DE6-4838-8722-91B0F2EB1C7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED53AE94-6DE6-4838-8722-91B0F2EB1C7E}.Debug|Win32.Build.0 = Debug|Win32
+		{ED53AE94-6DE6-4838-8722-91B0F2EB1C7E}.Release|Win32.ActiveCfg = Release|Win32
+		{ED53AE94-6DE6-4838-8722-91B0F2EB1C7E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
